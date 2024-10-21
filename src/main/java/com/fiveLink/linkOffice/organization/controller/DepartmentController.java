@@ -44,7 +44,7 @@ public class DepartmentController {
                 model.addAttribute("department", department);  
             });
         } 
-        return "/admin/organization/department_list";
+        return "admin/organization/department_list";
     } 
 
     @PostMapping("/department/add")
