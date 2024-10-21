@@ -172,7 +172,6 @@ public class PositionController {
         } catch (Exception e) {
             resultMap.put("res_msg", "오류: " + e.getMessage());
         }
-
         return resultMap;
     } 
 }
