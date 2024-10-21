@@ -44,7 +44,7 @@ public class ScheduleViewController {
 	    model.addAttribute("scheduleCategories", scheduleCategories);
 	    model.addAttribute("selectedCategory", selectedCategory); 
 	    
-	    return "/admin/schedule/scheduleCategory";
+	    return "admin/schedule/scheduleCategory";
 	}
 	
 	// 관리자 - 사내 일정 
@@ -55,7 +55,7 @@ public class ScheduleViewController {
    
 	    model.addAttribute("memberdto", memberDto);  
 	    
-	    return "/admin/schedule/companySchedule";
+	    return "admin/schedule/companySchedule";
 	}
 	
 	
@@ -69,6 +69,6 @@ public class ScheduleViewController {
 	    model.addAttribute("memberdto", memberDto);  
 	    model.addAttribute("memberNo", memberNo); 
 	     
-	    return "/employee/schedule/employeeSchedule";
+	    return "employee/schedule/employeeSchedule";
 	}
 }
