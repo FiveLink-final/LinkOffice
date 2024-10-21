@@ -61,7 +61,7 @@ public class MeetingReservationController {
  
         model.addAttribute("memberdto", memberDto.get(0));  
         model.addAttribute("meetings", meetings);
-        return "/employee/meeting/meetingReservation";
+        return "employee/meeting/meetingReservation";
     }
      
     // 해당 날짜 예약 정보 
