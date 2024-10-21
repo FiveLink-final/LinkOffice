@@ -17,7 +17,6 @@ import java.util.Optional;
 
 @Controller
 public class DepartmentController {
-
     private final DepartmentService departmentService;
     private final MemberService memberService;
 
