@@ -51,7 +51,7 @@ public class PositionController {
                 model.addAttribute("position", position);
             });
         }
-        return "/admin/organization/position_list";
+        return "admin/organization/position_list";
     } 
 
     @PostMapping("/position/add")
