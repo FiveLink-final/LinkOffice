@@ -46,7 +46,7 @@ public class PermissionController {
         model.addAttribute("memberdto", memberDto);
         model.addAttribute("permissionList", permissionList);
          
-        return "/admin/permission/permission";
+        return "admin/permission/permission";
     }
     
     @GetMapping("/permission/members")
