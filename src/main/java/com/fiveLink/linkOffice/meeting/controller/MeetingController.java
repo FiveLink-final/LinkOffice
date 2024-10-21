@@ -55,7 +55,7 @@ public class MeetingController {
         model.addAttribute("meetings", meetings);
         model.addAttribute("searchText", searchText);
          
-        return "/admin/meeting/meetingroomList";
+        return "admin/meeting/meetingroomList";
     } 
  
     // 회의실 등록
